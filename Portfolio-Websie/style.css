@@ -1,11 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-
 /* Navigation Section  */
-nav{
+nav {
     display: flex;
     background-color: black;
     height: 50px;
@@ -15,74 +14,81 @@ nav{
     padding-bottom: 10px;
     position: fixed;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     margin-top: 15px;
     margin-left: 20px;
 }
-nav ul li{
+
+nav ul li {
     margin-left: 20px;
     font-weight: bold;
     color: white;
 }
-nav h2{
+
+nav h2 {
     margin-top: 15px;
     margin-left: 10px;
     color: blue;
 
 }
-nav img{
+
+nav img {
     border: 2px solid black;
     border-radius: 5px;
     margin-left: 50%;
-    
-    
+
+
 }
 
 /* Home section  */
 
-.home{
+.home {
     display: flex;
     background: url('/Portfolio-Websie/images/img4.jpg')no-repeat;
-    
-    background-size:cover;
+
+    background-size: cover;
     height: 700px;
     width: 100%;
-    
+
 }
 
-.home .img{
-    margin-top:100px;
-    height: 400px ;
+.home .img {
+    margin-top: 100px;
+    height: 400px;
     width: 400px;
 }
-.home .img img{
-    height: 400px ;
+
+.home .img img {
+    height: 400px;
     width: 400px;
     margin-top: 20px;
     margin-left: 50px;
     /* border-radius: 20px; */
 }
 
-.home .name{
-    
-    height: 400px ;
+.home .name {
+
+    height: 400px;
     width: 400px;
     margin-left: 80px;
     margin-top: 200px;
 }
 
-.name p{
+.name p {
     font-size: 25px;
     color: rgb(251, 113, 7);
 }
-.name h1{
+
+.name h1 {
     font-size: 35px;
     color: rgb(251, 113, 7);
 
 }
-.name button{
+
+.name button {
     height: 40px;
     width: 200px;
     text-align: center;
@@ -93,14 +99,15 @@ nav img{
 }
 
 /* About Section   */
-.about{
+.about {
     background: url('/Portfolio-Websie/images/img3.jpg')no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding: 0 100px;
     height: 500px;
     /* width: 100%; */
 }
-.h2{
+
+.h2 {
     text-align: center;
     background-color: blue;
     color: rgb(251, 113, 7);
@@ -108,76 +115,70 @@ nav img{
     height: 100%;
     width: 100%;
 }
-.about .flex{
+
+.about .flex {
     display: flex;
     justify-content: center;
 }
-.about .flex div{
+
+.about .flex div {
     padding-top: 100px;
     width: 500px;
     text-align: justify;
 }
-.about .flex div h3{
-    color: rgb(251, 113, 7);
 
-    
+.about .flex div h3 {
+    color: rgb(251, 113, 7);
 }
-.about .flex div p{
+
+.about .flex div p {
     margin-top: 10px;
     color: white;
 }
 
-.about .flex button{
+.about .flex button {
     background-color: rgb(241, 85, 7);
     height: 50px;
     width: 250px;
     font-size: large;
     border-radius: 10px;
     margin-top: 30px;
-    
-    
 }
 
-.about .flex button a{
+.about .flex button a {
     color: white;
 }
 
-
-.about img{
+.about img {
     height: 400px;
-    width:400px;
+    width: 400px;
     margin-left: 100px;
     margin-top: 50px;
 }
 
 /* Services Section  */
-
-
-.services .center{
+.services .center {
     text-align: center;
     background-color: blue;
-    /* color: rgb(251, 113, 7); */
     color: rgb(251, 113, 7);
-
-
-    
-    
 }
-.services .center p{
+
+.services .center p {
     padding-top: 10px;
     font-size: 30px;
     color: white;
 }
-.main-card{
+
+.main-card {
     display: flex;
     background: url('/Portfolio-Websie/images/img1.avif')no-repeat;
-    background-size:cover;
+    background-size: cover;
     height: 500px;
     justify-content: center;
     padding-top: 100px;
 }
 
-.main-card .card{
+.main-card .card {
     height: 300px;
     width: 250px;
     color: white;
@@ -187,154 +188,154 @@ nav img{
     border: 1px gray solid;
     border-radius: 10px;
 }
-.main-card .card i{
+
+.main-card .card i {
     margin-top: 10px;
     font-size: 40px;
 }
-.main-card .card h3{
+
+.main-card .card h3 {
     margin-top: 10px;
     color: aqua;
 }
 
-.main-card .card p{
+.main-card .card p {
     text-align: justify;
-    margin:  20px;
+    margin: 20px;
     color: rgb(244, 124, 4);
-    /* margin: 20px ; */
-
 }
 
-
- /* skill-section */
- .skill h1{
+/* skill-section */
+.skill h1 {
     text-align: center;
     background-color: blue;
     color: rgb(251, 113, 7);
+}
 
- }
-
- .skill .flex{
+.skill .flex {
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
     width: 100%;
-    
     background: url('/Portfolio-Websie/images/img2.jpg')no-repeat;
-    background-size:cover;
+    background-size: cover;
     color: white;
- }
+}
 
- .skill .flex ul {
+.skill .flex ul {
     width: 50%;
-    margin: 10px ;
+    margin: 10px;
     margin-left: 50px;
-   
+}
 
- }
- .skill .flex ul h3{
+.skill .flex ul h3 {
     color: orange;
- }
- .skill .flex ul li {
-    margin-top: 5px;
- }
+}
 
- .skill .flex ul button {
+.skill .flex ul li {
+    margin-top: 5px;
+}
+
+.skill .flex ul button {
     height: 30px;
     width: 100px;
     background-color: red;
-    color: white; font-weight: bold;
+    color: white;
+    font-weight: bold;
     margin-top: 50px;
     border-radius: 10px;
     border: none;
-    
+}
 
- }
- .skill .flex .score h4 {
+.skill .flex .score h4 {
     margin-bottom: 5px;
- }
- .skill .flex .score h4 .ml-1{
+}
+
+.skill .flex .score h4 .ml-1 {
     margin-left: 315px;
 }
-.skill .flex .score h4 .ml-2{
+
+.skill .flex .score h4 .ml-2 {
     margin-left: 330px;
 }
 
-.skill .flex .score h4 .ml-3{
+.skill .flex .score h4 .ml-3 {
     margin-left: 270px;
 }
 
-.skill .flex .score h4 .ml-4{
+.skill .flex .score h4 .ml-4 {
     margin-left: 295px;
 }
 
-.skill .flex .score h4 .ml-5{
+.skill .flex .score h4 .ml-5 {
     margin-left: 335px;
 }
 
-.skill .flex .score h4 .ml-6{
+.skill .flex .score h4 .ml-6 {
     margin-left: 325px;
 }
- .skill .flex .score .gray{
+
+.skill .flex .score .gray {
     background-color: gray;
     width: 400px;
     height: 5px;
     border-radius: 5px;
     margin-bottom: 20px;
- }
- .skill .flex .score .gray p{
+}
+
+.skill .flex .score .gray p {
     background-color: rgb(253, 66, 66);
     width: 300px;
     height: 5px;
     border-radius: 5px;
- }
+}
 
- .skill .flex .score .gray .html{
+.skill .flex .score .gray .html {
     background-color: green;
     width: 350px;
- }
+}
 
- .skill .flex .score .gray .css{
+.skill .flex .score .gray .css {
     background-color: rgb(122, 128, 0);
     width: 310px;
- }
+}
 
- .skill .flex .score .gray .tailwind{
+.skill .flex .score .gray .tailwind {
     background-color: rgb(0, 124, 128);
     width: 260px;
- }
- .skill .flex .score .gray .js{
+}
+
+.skill .flex .score .gray .js {
     background-color: rgb(4, 0, 128);
     width: 330px;
- }
+}
 
- .skill .flex .score .gray .php{
+.skill .flex .score .gray .php {
     background-color: rgb(245, 12, 152);
     width: 200px;
- }
- .skill .flex .score .gray .sql{
+}
+
+.skill .flex .score .gray .sql {
     background-color: rgb(243, 67, 67);
     width: 170px;
- }
+}
 
-
-
- /*------------- team section  --------------*/
- .teams h1{
+/*------------- team section  --------------*/
+.teams h1 {
     text-align: center;
     background-color: blue;
     color: rgb(251, 113, 7);
-    
+}
 
- }
- .main-box{
+.main-box {
     display: flex;
     justify-content: center;
     background-color: rgba(9, 142, 209, 0.533);
     padding: 50px 0;
- }
+}
 
- .main-box .box-1{
+.main-box .box-1 {
     border: 1px solid gray;
     height: 250px;
     width: 250px;
@@ -342,94 +343,91 @@ nav img{
     padding-top: 20px;
     margin-left: 10px;
     border-radius: 10px;
+}
 
-    
- }
-
- .main-box .box-1 img{
+.main-box .box-1 img {
     height: 100px;
-    width:100px;
+    width: 100px;
     border-radius: 50%;
     border: 2px solid pink;
     margin-bottom: 20px;
+}
 
- }
- .main-box .box-1 ul {
+.main-box .box-1 ul {
     list-style: square;
     margin-top: 20px;
     text-align: justify;
     margin-left: 50px;
     font-weight: 600;
- }
-
+}
 
 /* ------------- Contact Section ------------- -- */
-
-.h h1{
+.h h1 {
     text-align: center;
     /* margin:50px 0 ; */
     background-color: blue;
     color: rgb(251, 113, 7);
-
-
 }
-.contact{
+
+.contact {
     display: flex;
     background-color: rgba(10, 1, 38, 0.944);
     padding-top: 20px;
     color: white;
     padding-bottom: 50px;
 }
-.contact .touch{
+
+.contact .touch {
     width: 50%;
     margin-left: 100px;
-    
 }
-.contact .touch ul{
+
+.contact .touch ul {
     display: flex;
     list-style: none;
     margin-top: 20px;
 }
-.contact .touch ul li{
+
+.contact .touch ul li {
     margin-left: 20px;
 }
 
-.contact .touch .flex i{
+.contact .touch .flex i {
     margin-left: 20px;
     font-size: 30px;
     color: blue;
 }
 
-
-.contact form{
+.contact form {
     margin-left: 250px;
-
 }
-.contact form input{
+
+.contact form input {
     width: 250px;
     height: 30px;
     border-radius: 10px;
 }
 
-.contact form .subject{
+.contact form .subject {
     width: 508px;
     height: 30px;
     margin: 20px 0;
 }
-.contact form input::placeholder{
+
+.contact form input::placeholder {
     color: rgb(141, 5, 5);
     font-weight: 700;
     padding-left: 30px;
     /* margin-left: 20px; */
 }
 
-.contact form button{
+.contact form button {
     height: 30px;
     width: 150px;
     text-align: center;
     background-color: rgba(255, 81, 0, 0.998);
     margin-top: 20px;
-    font-weight:700 ;
+    font-weight: 700;
     color: white;
     border-radius: 10px;
 }
